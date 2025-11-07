@@ -1,0 +1,8 @@
+Wynik: 134689
+Wywolana 3
+Wynik: 34566788
+Wywolana 4
+Wynik: 145007501
+Wywolana 5
+Wynik: 989786756453412
+Wywolana 8
