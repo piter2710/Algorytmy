@@ -1,7 +1,7 @@
 mapping = {'+': '1', '*': '2', 'o': '0'}
 
 values = []
-with open("symbole.txt", encoding="utf-8") as f:
+with open("symbole.txt") as f:
     lines = [line.strip() for line in f]
 
 for line in lines:
