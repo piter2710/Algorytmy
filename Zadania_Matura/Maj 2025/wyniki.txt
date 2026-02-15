@@ -1,0 +1,40 @@
+6.1
+MASA_ŁADUNKOW: 	41498,2
+MASA_MARTIA	3107,9404
+
+6.2
+Thaumasia
+17,83571429
+6.3
+174,5	13.12.2035	19.12.2035
+6.4
+
+7.1
+MC-01
+7.2
+
+Spirit 14
+2066-08-29
+2076-07-25
+7.3
+Aeolis
+Amazonis
+Arabia
+Elysium
+Eridania
+Mare Tyrrhenum
+Sinus Sabaeus
+Syrtis Major
+7.4
+Mariner 14
+Mariner 15
+Mariner 20
+Phoenix 13
+Phoenix 3
+Rosetta 1
+Rosetta 8
+Spirit 12
+Spirit 7
+Viking 17
+7.5
+select distinct pr.nazwa from Producent pr inner join laziki l on pr.kod_producenta = l.kod_producenta inner join pomiary p on p.nr_lazika = l.nr_lazika inner join obszary o on o.kod_obszaru = p.kod_obszaru where o.nazwa_obszaru = 'Arcadia' and YEAR(p.data_pomiaru) = 2060
